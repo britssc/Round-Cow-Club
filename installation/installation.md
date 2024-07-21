@@ -3,6 +3,7 @@
 This document describes how to install Conda, set up a Conda environment for using Jupyter Notebook, and install ROOT for use in Jupyter Notebook.
 
 You can also follow the steps described here: https://iscinumpy.gitlab.io/post/root-conda/
+Or here: https://indico.cern.ch/event/759388/contributions/3306849/attachments/1816254/2968550/root_conda_forge.pdf
 
 ## Step 0: Install Conda
 
