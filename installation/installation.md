@@ -56,13 +56,11 @@ You can change base_env to your preferred name and 3.8 to the Python version you
 1. **Install the Jupyter kernel for the Conda environment**:
    ```sh
    conda install ipykernel
+   python -m ipykernel install --user --name=my_root_env --display-name "Python (my_root_env)"
 
 2. **Add the Environment as a Kernel in Jupyter Notebook**:
-
-To add the environment as a kernel in Jupyter Notebook, use the following command:
-
- ```sh
-  python -m ipykernel install --user --name=my_root_env --display-name "Python (my_root_env)"
+   ```sh
+   python -m ipykernel install --user --name=my_root_env --display-name "Python (my_root_env)"
 
 ## Step 6: Run Jupyter Notebook
 
