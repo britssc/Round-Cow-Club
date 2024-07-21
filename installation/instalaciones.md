@@ -57,12 +57,8 @@ Este documento describe cómo instalar Conda, configurar un entorno Conda para u
    conda install ipykernel
 
 2. **Agregar el Entorno como un Kernel en Jupyter Notebook**:
-
-Para agregar el entorno como un kernel en Jupyter Notebook, utiliza el siguiente comando:
-
-
- ```sh
-python -m ipykernel install --user --name=my_root_env --display-name "Python (my_root_env)"
+   ```sh
+   python -m ipykernel install --user --name=my_root_env --display-name "Python (my_root_env)"
 
 ## Paso 6: Ejecutar Jupyter Notebook
 
